@@ -8297,7 +8297,8 @@ alU:function alU(a){this.a=a},
 aO1:function aO1(){},
 aO0:function aO0(){},
 aOk:function aOk(){},
-P8:function P8(a){this.a=a},
+P8:function P8(a){this.c=0
+this.a=a},
 J7:function J7(a){this.a=a},
 aC8:function aC8(){},
 ur:function ur(a,b){this.c=a
@@ -49316,13 +49317,23 @@ A.aOk.prototype={
 $0(){},
 $S:0}
 A.P8.prototype={
-I(a){var s=this,r=null,q=A.aY(a,r,t.w).w
-q=q.a.a<800?24:100
-return new A.aQ(new A.O(q,40,q,40),A.ae(A.a([A.Ht(r,r,r,B.bn,r,r,!0,r,A.cM(A.a([A.cM(r,A.pG(B.m,28,B.P),"About "),A.cM(r,A.pG(B.ai,28,B.P),"Brick Homes & Realtors")],t.VO),r,r),B.aM,r,r,B.aq,B.au),new A.y(r,15,r,r),A.R(u.a,r,r,r,r,A.pF(B.m,16,r,r),r,r),new A.y(r,20,r,r),s.SY("We are one of the largest real estate consultants having a team of 50+ real estate experts in Chennai..."),s.SY("We help Ultra HNIs and HNIs monetize their land parcels and unlock the real value of their real estate portfolio..."),new A.y(r,20,r,r),A.R("We also help premium property owners sell their property(s) ensuring:",r,r,r,r,A.aG(r,r,B.ai,r,r,r,r,r,r,r,r,20,r,r,B.P,r,r,!0,r,r,r,r,r,r,r,r),r,r),new A.y(r,20,r,r),s.K8(1,"Privacy","Meet only the buyers filtered through our strict profiling process."),s.K8(2,"Convenience","No hassle of dealing with unknown enquiries or multiple visits."),s.K8(3,"Best Pricing and Time Value of money","We save a lot of Time and Money through our vast client and agent network."),new A.y(r,30,r,r),A.R("We offer private consultations on real estate investments, decisions, transactions and opportunities in real estate space in India and abroad.",r,r,r,r,A.pF(B.m,15,B.c4,r),r,r)],t.p),B.w,B.i,B.h),r)},
+I(a){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=A.aY(a,i,t.w).w.a.a<800
+j.c=h?14:16
+s=h?24:100
+r=A.cM(i,A.pG(B.m,h?18:24,B.P),"About ")
+r=A.Ht(i,i,i,B.bn,i,i,!0,i,A.cM(A.a([r,A.cM(i,A.pG(B.ai,h?18:24,B.P),"Brick Homes & Realtors")],t.VO),i,i),B.aM,i,i,B.aq,B.au)
+q=A.R(u.a,i,i,i,i,A.pF(B.m,j.c,i,i),i,i)
+p=j.SY("We are one of the largest real estate consultants having a team of 50+ real estate experts in Chennai...")
+o=j.SY("We help Ultra HNIs and HNIs monetize their land parcels and unlock the real value of their real estate portfolio...")
+n=A.R("We also help premium property owners sell their property(s) ensuring:",i,i,i,i,A.aG(i,i,B.ai,i,i,i,i,i,i,i,i,h?16:18,i,i,B.P,i,i,!0,i,i,i,i,i,i,i,i),i,i)
+m=j.K8(1,"Privacy","Meet only the buyers filtered through our strict profiling process.")
+l=j.K8(2,"Convenience","No hassle of dealing with unknown enquiries or multiple visits.")
+k=j.K8(3,"Best Pricing and Time Value of money","We save a lot of Time and Money through our vast client and agent network.")
+return new A.aQ(new A.O(s,40,s,40),A.ae(A.a([r,new A.y(i,15,i,i),q,new A.y(i,20,i,i),p,o,new A.y(i,20,i,i),n,new A.y(i,20,i,i),m,l,k,new A.y(i,30,i,i),A.R("We offer private consultations on real estate investments, decisions, transactions and opportunities in real estate space in India and abroad.",i,i,i,i,A.pF(B.m,h?13:15,B.c4,i),i,i)],t.p),B.w,B.i,B.h),i)},
 SY(a){var s=null
-return new A.aQ(B.Jm,A.ax(A.a([A.R("\u2714 ",s,s,s,s,A.pF(B.ai,18,s,s),s,s),A.aj(A.R(a,s,s,s,s,A.pF(B.m,16,s,s),s,s),1)],t.p),B.w,B.i,B.h,s),s)},
-K8(a,b,c){var s=null,r=A.pF(B.m,16,s,s)
-return new A.aQ(B.Jw,A.Ht(s,s,s,B.bn,s,s,!0,s,A.cM(A.a([A.cM(s,A.pF(s,s,s,B.P),b+" - "),A.cM(s,A.pF(B.m,s,s,s),c)],t.VO),r,""+a+". "),B.aM,s,s,B.aq,B.au),s)}}
+return new A.aQ(B.Jm,A.ax(A.a([A.R("\u2714 ",s,s,s,s,A.pF(B.ai,18,s,s),s,s),A.aj(A.R(a,s,s,s,s,A.pF(B.m,this.c,s,s),s,s),1)],t.p),B.w,B.i,B.h,s),s)},
+K8(a,b,c){var s=null,r=A.pF(B.m,this.c,s,s)
+return new A.aQ(B.Jw,A.Ht(s,s,s,B.bn,s,s,!0,s,A.cM(A.a([A.cM(s,A.pF(s,this.c,s,B.P),b+" - "),A.cM(s,A.pF(B.m,this.c,s,s),c)],t.VO),r,""+a+". "),B.aM,s,s,B.aq,B.au),s)}}
 A.J7.prototype={
 I(a){var s,r,q,p,o=null
 A.aY(a,o,t.w).toString
@@ -49420,8 +49431,8 @@ o=A.Ht(p,p,p,B.bn,p,p,!0,p,A.cM(A.a([A.cM(p,A.pG(B.ai,q.d?18:24,p),"Plots")],t.V
 s=t.p
 o=A.ax(A.a([o,A.aSN(A.R("More Plots  \u279e",p,p,p,p,A.cS(B.ai,q.d?12:14,p,p),p,p),new A.aiA(),p)],s),B.j,B.bk,B.h,p)
 r=q.c
-r=!q.d?A.ae(A.a([A.ax(A.a([new A.nU(r[0],p),new A.nU(r[1],p)],s),B.j,B.bk,B.h,p),new A.y(p,12,p,p),A.ax(A.a([new A.nU(r[2],p),new A.od(p)],s),B.j,B.bk,B.h,p)],s),B.j,B.i,B.h):A.ae(A.a([new A.nU(r[0],p),new A.nU(r[1],p),new A.nU(r[2],p)],s),B.j,B.i,B.h)
-return A.L(p,A.ae(A.a([o,new A.y(p,16,p,p),r],s),B.w,B.i,B.h),B.f,p,p,p,p,p,new A.O(n,0,n,0),new A.O(0,16,0,16),p,p,p)}}
+r=!q.d?A.ae(A.a([A.ax(A.a([new A.nU(r[0],p),new A.nU(r[1],p)],s),B.j,B.bk,B.h,p),new A.y(p,12,p,p),A.ax(A.a([new A.nU(r[2],p),new A.od(p)],s),B.j,B.bk,B.h,p)],s),B.j,B.i,B.h):A.ae(A.a([new A.nU(r[0],p),new A.y(p,10,p,p),new A.nU(r[1],p),new A.y(p,10,p,p),new A.nU(r[2],p)],s),B.j,B.i,B.h)
+return A.L(p,A.ae(A.a([o,new A.y(p,8,p,p),r],s),B.w,B.i,B.h),B.f,p,p,p,p,p,new A.O(n,0,n,0),new A.O(0,16,0,16),p,p,p)}}
 A.aiA.prototype={
 $0(){},
 $S:0}
